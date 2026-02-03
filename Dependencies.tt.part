@@ -1,0 +1,54 @@
+﻿		"<#= GetPackageWithLatestVersion("A2", "Clean_Large_Wood_Gate", "1.0.0") #>",
+		"<#= GetPackageWithLatestVersion("A2", "No_Glow", "1.0.0") #>",
+		"<#= GetPackageWithLatestVersion("A2", "Stop_Time", "0.1.4") #>",
+		"<#= GetPackageWithLatestVersion("Advize", "PlantEasily", "2.0.3") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "Official_BepInEx_ConfigurationManager", "18.4.1") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "ResourceUnloadOptimizer", "1.0.4") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "NoCreatureDust", "1.0.3") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "NoWeaponDust", "1.0.1") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "NoBuildDust", "1.0.6") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "NoCultivatorDust", "1.0.6") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "NoHoeDust", "1.0.6") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "NoTreeDust", "1.0.0") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "AzuSkillTweaks", "1.0.5") #>",
+		"<#= GetPackageWithLatestVersion("blacks7ar", "TorchesAreFires", "1.0.9") #>",
+		"<#= GetPackageWithLatestVersion("coemt", "GimmeFuelGimmeFire", "0.0.7") #>",
+		"<#= GetPackageWithLatestVersion("ComfyMods", "Gizmo", "1.15.0") #>",
+		"<#= GetPackageWithLatestVersion("Mayo", "AAV", "1.0.2") #>",
+		"<#= GetPackageWithLatestVersion("shudnal", "LongshipUpgrades", "1.0.13") #>",
+		"<#= GetPackageWithLatestVersion("shudnal", "ExtraSlots", "1.1.7") #>",
+		"<#= GetPackageWithLatestVersion("ValheimModding", "YamlDotNet", "16.3.1") #>",
+		"<#= GetPackageWithLatestVersion("Valphi", "BetterLaddersContinued", "0.217.24") #>"
+<#
+#pragma warning disable 0168, 0219
+string GetPackageWithLatestVersion(string author, string name, string fallbackVersion)
+{
+    string url = $"https://thunderstore.io/api/v1/package-metrics/{author}/{name}/";
+
+    try
+    {
+        var request = (HttpWebRequest)WebRequest.Create(url);
+        request.Method = "GET";
+        request.Accept = "application/json";
+
+        using (var response = (HttpWebResponse)request.GetResponse())
+        using (var reader = new StreamReader(response.GetResponseStream()))
+        {
+            string json = reader.ReadToEnd();
+            var serializer = new JavaScriptSerializer();
+            dynamic obj = serializer.Deserialize<dynamic>(json);
+
+            if (obj.ContainsKey("latest_version")) {
+			  var latestVersion = obj["latest_version"];
+			  return $"{author}-{name}-{latestVersion}";
+			}
+            return $"{author}-{name}-{fallbackVersion}";
+        }
+    }
+    catch (Exception _)
+    {
+        return $"{author}-{name}-{fallbackVersion}";
+    }
+}
+#pragma warning restore 0168, 0219
+#>

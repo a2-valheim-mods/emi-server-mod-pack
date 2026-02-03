@@ -13,6 +13,7 @@
     "website_url": "<#= URL #>",
     "dependencies": [
         "denikson-BepInExPack_Valheim-<#= BEPINEXPACK_VERSION #>",
-        "ValheimModding-Jotunn-<#= JOTUNN_VERSION #>"
+        "ValheimModding-Jotunn-<#= JOTUNN_VERSION #>",
+<#@ include file="..\..\Dependencies.tt.part" #>
     ]
 }
