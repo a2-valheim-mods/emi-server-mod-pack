@@ -1,4 +1,7 @@
-﻿## [v1.4.0](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.0)
+﻿## [v1.4.1](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.1)
+- Removed ResourceUnloadOptimizer mod.
+
+## [v1.4.0](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.0)
 - Migrated to github.
 - Removed AzuExtendedPlayerInventory mod.
 - Removed Build_Near_Locations mod.
