@@ -1,4 +1,7 @@
-﻿## [v1.4.1](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.1)
+﻿## [v1.4.2](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.2)
+- Added No_PlayFab mod.
+
+## [v1.4.1](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.1)
 - Removed ResourceUnloadOptimizer mod.
 
 ## [v1.4.0](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.0)

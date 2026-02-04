@@ -1,5 +1,6 @@
 ﻿		"<#= GetPackageWithLatestVersion("A2", "Clean_Large_Wood_Gate", "1.0.0") #>",
 		"<#= GetPackageWithLatestVersion("A2", "No_Glow", "1.0.0") #>",
+		"<#= GetPackageWithLatestVersion("A2", "No_PlayFab", "0.1.0") #>",
 		"<#= GetPackageWithLatestVersion("A2", "Stop_Time", "0.1.4") #>",
 		"<#= GetPackageWithLatestVersion("Advize", "PlantEasily", "2.0.3") #>",
 		"<#= GetPackageWithLatestVersion("Azumatt", "Official_BepInEx_ConfigurationManager", "18.4.1") #>",
