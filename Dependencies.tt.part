@@ -4,6 +4,7 @@
 		"<#= GetPackageWithLatestVersion("A2", "Stop_Time", "0.1.4") #>",
 		"<#= GetPackageWithLatestVersion("Advize", "PlantEasily", "2.0.3") #>",
 		"<#= GetPackageWithLatestVersion("Azumatt", "Official_BepInEx_ConfigurationManager", "18.4.1") #>",
+		"<#= GetPackageWithLatestVersion("Azumatt", "MyPitsDontLeak", "1.0.0") #>",
 		"<#= GetPackageWithLatestVersion("Azumatt", "NoCreatureDust", "1.0.3") #>",
 		"<#= GetPackageWithLatestVersion("Azumatt", "NoWeaponDust", "1.0.1") #>",
 		"<#= GetPackageWithLatestVersion("Azumatt", "NoBuildDust", "1.0.6") #>",

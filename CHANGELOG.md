@@ -1,4 +1,7 @@
-﻿## [v1.4.2](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.2)
+﻿## [v1.4.3](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.3)
+- Added MyPitsDontLeak mod.
+
+## [v1.4.2](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.2)
 - Added No_PlayFab mod.
 
 ## [v1.4.1](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.1)
