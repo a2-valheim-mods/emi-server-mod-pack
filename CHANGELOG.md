@@ -1,4 +1,7 @@
-﻿## [v1.4.3](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.3)
+﻿## [v1.4.4](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.4)
+- changed ConfigurationManager to shudnal's version.
+
+## [v1.4.3](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.3)
 - Added MyPitsDontLeak mod.
 
 ## [v1.4.2](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.2)
