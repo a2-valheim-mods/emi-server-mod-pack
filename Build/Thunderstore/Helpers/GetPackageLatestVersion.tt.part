@@ -12,7 +12,7 @@
 <#@ import namespace="System.Globalization" #>
 <#
 #pragma warning disable 0168, 0219
-string GetPackageWithLatestVersion(string author, string name, string fallbackVersion)
+string GetPackageLatestVersion(string author, string name, string fallbackVersion)
 {
     string templateFileDir = Path.GetDirectoryName(this.Host.TemplateFile);
 

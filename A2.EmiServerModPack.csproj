@@ -69,7 +69,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Build\Thunderstore\Helpers\GetPackageWithLatestVersion.tt.part" />
+    <None Include="Build\Thunderstore\Helpers\GetPackageLatestVersion.tt.part" />
     <Content Include="Build\Thunderstore\icon.png" />
     <Content Include="Build\Thunderstore\manifest.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
