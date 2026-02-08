@@ -1,6 +1,6 @@
 ﻿<#
 #pragma warning disable 0168, 0219
-var VERSION = "1.4.4.0";
+var VERSION = "1.4.5.0";
 var PREFIX = "A2";
 var NAME = "Emi Server Mod Pack";
 var DESCRIPTION = "A set of mods I'm using to play with my family and friends.";

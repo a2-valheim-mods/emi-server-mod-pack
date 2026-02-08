@@ -1,5 +1,9 @@
-﻿## [v1.4.4](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.4)
-- changed ConfigurationManager to shudnal's version.
+﻿## [v1.4.5](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.5)
+- Added No_Startup_Logo mod.
+- Added Wolfs_Eat_Bear_Meat mod.
+
+## [v1.4.4](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.4)
+- Changed ConfigurationManager to shudnal's version.
 
 ## [v1.4.3](https://github.com/a2-valheim-mods/emi-server-mod-pack/releases/tag/v1.4.3)
 - Added MyPitsDontLeak mod.
